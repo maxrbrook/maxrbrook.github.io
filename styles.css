@@ -1,14 +1,41 @@
 body{
-    margin:0px
+	margin:0px
+}
+a{
+	font-family: Courier New;
+	font-size: 24px;
 }
 .HeaderPanel{
-    display:flex;
-    background-color: black;
-    padding: 10px;
-    margin: 0px;
+	display:flex;
+	background-color: black;
+	padding-left: 25px;
+	padding-top: 15px;
+	justify-content: space-between;
+	align-items: end;
 }
 .Image{
 }
 .NavigationPane{
-
+	display:flex;
+	gap: 10px;
+	/*! height: 50px; */
+	margin-right: 50px;
+	cursor: pointer;
+	color: white;
+}
+.NavigationPane a{
+	justify-content: center;
+	align-items: center;
+}
+.NavItem{
+	width: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*! border: 2px solid black; */
+	border-radius: 10px;
+}
+.NavItem:hover{
+	background:#0177ba;
+	
 }
