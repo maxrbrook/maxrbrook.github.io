@@ -39,3 +39,49 @@ a{
 	background:#0177ba;
 	
 }
+.BodyContent{
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+}
+.BodyItem{
+	display:flex;
+	justify-content: center;
+	margin-right: 20%;
+	margin-left: 20%;
+	background-color: yellowgreen;
+	padding: 10px;
+	gap: 10px;
+}
+.BodyText{
+	display:flex;
+	flex-direction:column;
+	width: fit-content;
+}
+.BodyItem img{
+	width:100%;
+	height:auto;
+	/*! padding: .4em; */
+}
+
+
+.FooterPanel{
+	background-color: lightgrey;
+	display:flex;
+	justify-content:space-around;
+	align-items: center;
+}
+.FooterTextItem{
+	display:flex;
+	flex-direction: column;
+}
+.FooterTextItem p{
+	margin: 5px;
+}
+.FooterLinkItem{
+	display:flex;
+	gap: 10px;
+}
+.FooterLinkItem img{
+	width:25px;
+}
